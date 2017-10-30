@@ -1,0 +1,14 @@
+package co.japo.layoutsapp;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class LinearLayoutHorizontalActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_linear_layout_horizontal);
+        setTitle(R.string.label_linear_layout_horizontal);
+    }
+}

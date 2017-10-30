@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.japo.layoutsexamplev2.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/my_text_view_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:backgroundTint="@color/colorAccent"/>
+        <Button
+            android:id="@+id/my_image_view_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ImageView"
+            android:backgroundTint="@color/colorAccent"/>
+        <Button
+            android:id="@+id/my_edit_text_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EditText"
+            android:backgroundTint="@color/colorAccent"/>
+        <Button
+            android:id="@+id/my_auto_complete_text_view_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AutoComplete TextView"
+            android:backgroundTint="@color/colorAccent"/>
+        <Button
+            android:id="@+id/my_button_view_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:backgroundTint="@color/colorAccent"/>
+        <Button
+            android:id="@+id/my_image_button_view_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ImageButton"
+            android:backgroundTint="@color/colorAccent"/>
+        <Button
+            android:id="@+id/my_checkbox_view_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Checkbox"
+            android:backgroundTint="@color/colorAccent"/>
+        <Button
+            android:id="@+id/my_toggle_button_view_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:backgroundTint="@color/colorAccent"/>
+        <Button
+            android:id="@+id/my_radio_button_view_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Radio Button"
+            android:backgroundTint="@color/colorAccent"/>
+        <Button
+            android:id="@+id/my_radio_group_view_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioGroup"
+            android:backgroundTint="@color/colorAccent"/>
+        <Button
+            android:id="@+id/my_progress_bar_view_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Progress Bar"
+            android:backgroundTint="@color/colorAccent"/>
+        <Button
+            android:id="@+id/my_spinner_view_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spinner"
+            android:backgroundTint="@color/colorAccent"/>
+        <Button
+            android:id="@+id/my_time_picker_view_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TimePicker"
+            android:backgroundTint="@color/colorAccent"/>
+        <Button
+            android:id="@+id/my_date_picker_view_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DatePicker"
+            android:backgroundTint="@color/colorAccent"/>
+        <Button
+            android:id="@+id/my_datetime_picker_view_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date Time Picker Dialog"
+            android:backgroundTint="@color/colorAccent"/>
+    </LinearLayout>
+
+</ScrollView>

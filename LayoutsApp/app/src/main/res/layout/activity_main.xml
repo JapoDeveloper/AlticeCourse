@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="25dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="co.japo.layoutsapp.MainActivity">
+
+    <Button
+        android:id="@+id/linearLayoutVertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/label_linear_layout_vertical"
+        android:drawableLeft="@drawable/vertical_layout"/>
+
+    <Button
+        android:id="@+id/linearLayoutHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/label_linear_layout_horizontal"
+        android:drawableRight="@drawable/horizontal_layout"/>
+
+    <Button
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/label_relative_layout"
+        android:drawableLeft="@drawable/relative_layout"/>
+
+    <Button
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/label_table_layout"
+        android:drawableRight="@drawable/table_layout"/>
+
+    <Button
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/label_frame_layout"
+        android:drawableLeft="@drawable/frame_layout"/>
+
+    <Button
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/label_list_view"
+        android:drawableRight="@drawable/list_layout"/>
+
+    <Button
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/label_grid_view"
+        android:drawableLeft="@drawable/grid_layout"/>
+</LinearLayout>
+</ScrollView>

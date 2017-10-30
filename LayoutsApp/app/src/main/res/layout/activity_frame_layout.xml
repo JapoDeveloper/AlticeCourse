@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.japo.layoutsapp.FrameLayoutActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/torre"
+        android:scaleType="fitXY"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Torre Eiffel"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paris, Francia"
+        android:layout_gravity="bottom"
+        android:gravity="right"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:padding="10dp"/>
+</FrameLayout>

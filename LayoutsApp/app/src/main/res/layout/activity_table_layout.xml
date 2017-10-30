@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    tools:context="co.japo.layoutsapp.TableLayoutActivity">
+
+    <TableRow android:layout_marginBottom="10dp">
+        <TextView android:text="Icono" android:textStyle="bold" android:textAlignment="center" android:textSize="18sp" />
+        <TextView android:text="Nombre" android:layout_marginLeft="60dp" android:textStyle="bold" android:textAlignment="center" android:textSize="18sp" />
+        <TextView android:text="Visitas" android:layout_marginLeft="60dp" android:textStyle="bold" android:textAlignment="center" android:textSize="18sp"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp">
+
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/amazon"/>
+
+        <TextView
+            android:text="Amazon"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:height="42dp"/>
+
+        <TextView
+            android:text="300 visitas"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:height="42dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp">
+
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/facebook"/>
+
+        <TextView
+            android:text="Facebook"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:height="42dp"/>
+
+        <TextView
+            android:text="18000 visitas"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:height="42dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp">
+
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/whatsapp"/>
+
+        <TextView
+            android:text="Whatsapp"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:height="42dp"/>
+
+        <TextView
+            android:text="5000 visitas"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:height="42dp"/>
+    </TableRow>
+</TableLayout>

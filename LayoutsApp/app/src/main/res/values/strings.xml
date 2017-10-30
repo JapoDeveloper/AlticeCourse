@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LayoutsExamples</string>
+    <string name="label_linear_layout_vertical">Linear Layout Vertical</string>
+    <string name="label_linear_layout_horizontal">Liner Layout Horizontal</string>
+    <string name="label_relative_layout">Relative Layout</string>
+    <string name="label_table_layout">Table Layout</string>
+    <string name="label_frame_layout">Frame Layout</string>
+    <string name="label_list_view">List view</string>
+    <string name="label_grid_view">Grid view</string>
+    <string name="title_activity_list_view_item">ListViewItemActivity</string>
+</resources>
